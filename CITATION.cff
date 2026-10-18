@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si usás este instrumento, citá el proyecto. Documentos y datos bajo CC BY 4.0; código bajo licencia MIT. Ver LICENSE-CONTENT.md y LICENSE-CODE.md."
+title: "Protocolo STEV — TANDA1"
+abstract: "Sistema Tricapa de Evaluación Epistémica para respuestas de modelos de lenguaje. Incluye Codebook v1.0, Decision Log (67 decisiones) y corpus final de 60 registros."
+authors:
+  - family-names: "Ninno"
+    given-names: "Marina M."
+    affiliation: "Proyecto independiente"
+date-released: "2026-10-07"
+version: "1.0"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/TU-USUARIO/STEV_TANDA1"
+keywords:
+  - evaluación epistémica
+  - modelos de lenguaje
+  - confiabilidad inter-evaluador
+  - Krippendorff alpha
+  - LLM evaluation
