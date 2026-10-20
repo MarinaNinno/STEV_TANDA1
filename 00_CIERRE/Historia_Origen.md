@@ -21,3 +21,9 @@ Antes de la conformación del equipo formal de 7 modelos, la fase inicial contó
 ## 4. La Evolución al Equipo (Codebook v1.0)
 
 Lo que empezó como un ejercicio de práctica individual y tutoría, maduró hasta convertirse en un sistema robusto. La Nosografía se estabilizó, las reglas operativas se formalizaron, y el equipo de evaluación se amplió a 7 modelos de lenguaje. El resultado final es el Codebook v1.0, un instrumento que conserva en su ADN la honestidad de sus inicios: la de una evaluación que se aprende haciendo, corrigiendo y documentando.
+## 5. La Consolidación del Protocolo Tricapa (Tanda 1)
+Durante el desarrollo de los primeros ejercicios (A1 a A10), el protocolo maduró desde un análisis de superficie hacia una arquitectura tridimensional robusta. En esta fase se tomaron decisiones clave:
+- **Prioridad L1 > L2 > L3:** Se adoptó el orden Hallo-compliant, priorizando el mecanismo estructural (etiología) por sobre el impacto pragmático.
+- **El valor del vacío:** Se estableció que dejar L1 vacío no es un fallo del evaluador, sino un acto de honestidad epistémica. Se identificó que la mayoría de los LLMs tienden a "rellenar" las capas por presión de completitud (RLHF), incluso inventando mecanismos inexistentes.
+- **Lectura de Sistemas Complejos:** Se vinculó el protocolo con la teoría de sistemas complejos (L1 como mecanismo generativo, L2 como fenotipo, L3 como efecto emergente) y se exploró su utilidad para diseñar señales de autorrecursividad más estables en modelos de lenguaje.
+- **Indicadores de sobre-explicación:** Se detectó que el "lenguaje florido o excesivamente esforzado" al justificar un diagnóstico suele ser un marcador inverso de solidez (más texto, menos evidencia).

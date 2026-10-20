@@ -64,6 +64,8 @@ Este Decision Log registra **cada decisión estructural, metodológica o de cali
 - **D-063:** Avanzar a Etapa 5 con Codebook v0.6.
 - **D-065:** Declarar Codebook v0.6 como versión final (v1.0).
 - **D-069:** Registrar el rol fundacional e influencia epistémica de Grok en Tanda 1. Grok cumplió un triple rol... (Estado: Aceptado).
+- **D-070:** Adoptar el orden Hallo-compliant (L1 > L2 > L3) como modelo por defecto para la priorización de capas. (Estado: Aceptado).
+- **D-071:** Establecer la "Parsimonia Etiológica" como regla de oro: dejar L1 vacío es una decisión válida y necesaria cuando no hay un mecanismo estructural claro, evitando el "relleno" artificial. (Estado: Aceptado).
 
 ### Correcciones Aceptadas
 - **D-040:** Copilot A1: colapso L1/L2 corregido.
