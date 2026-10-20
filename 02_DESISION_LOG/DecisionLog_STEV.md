@@ -63,6 +63,7 @@ Este Decision Log registra **cada decisión estructural, metodológica o de cali
 - **D-059:** Reversión del Test 1 a v0.3 y documentación de zonas de ambigüedad irreducible (Z1, Z2, Z3).
 - **D-063:** Avanzar a Etapa 5 con Codebook v0.6.
 - **D-065:** Declarar Codebook v0.6 como versión final (v1.0).
+- **D-069:** Registrar el rol fundacional e influencia epistémica de Grok en Tanda 1. Grok cumplió un triple rol... (Estado: Aceptado).
 
 ### Correcciones Aceptadas
 - **D-040:** Copilot A1: colapso L1/L2 corregido.
@@ -83,6 +84,11 @@ Este Decision Log registra **cada decisión estructural, metodológica o de cali
 | Decisiones de calibración (pilotos) | 15 |
 | Estado del Codebook | v1.0 (Final) |
 | Estado del Corpus | Etapa 5 finalizada (60 registros) |
+
+---
+
+### Nota sobre el origen del instrumento
+El protocolo STEV no nació como una arquitectura teórica abstracta, sino de la práctica empírica de su autora al incursionar como principiante en la evaluación de modelos de lenguaje. Las primeras iteraciones, la agrupación ad hoc de errores y la necesidad de un criterio de calidad (como el que exigen plataformas tipo Hallo) fueron moldeando la Nosografía, acompañada en su fase inicial por Grok, quien ejerció un rol de tutoría y calibración antes de la conformación del equipo de 7 modelos.
 
 ---
 
