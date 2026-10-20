@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RegistroEvaluacionExternaSTEV",
+  "description": "Esquema de validación para las evaluaciones externas del protocolo STEV.",
+  "type": "object",
+  "required": [
+    "id_caso",
+    "ejercicio",
+    "evaluador",
+    "l1_capa_vacia",
+    "l2_codigo_principal",
+    "l3_capa_vacia",
+    "evaluacion_global",
+    "vector_stev"
+  ],
+  "properties": {
+    "id_caso": {
+      "type": "string",
+      "description": "Identificador único, ej. EXT-EV1-A1"
+    },
+    "ejercicio": {
+      "type": "string",
+      "enum": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"]
+    },
+    "evaluador": {
+      "type": "string"
+    },
+    "tipo_evaluador": {
+      "type": "string",
+      "enum": ["modelo", "humano", "referencia"]
+    },
+    "l1_codigo_principal": {
+      "type": ["string", "null"]
+    },
+    "l1_capa_vacia": {
+      "type": "boolean"
+    },
+    "l1_motivo_vacio": {
+      "type": ["string", "null"],
+      "enum": [
+        "etiqueta_sin_contenido",
+        "evasion_pura",
+        "ausencia_pretension_causal",
+        "contenido_correcto_insuficiente",
+        "ausencia_fallo_tecnico",
+        null
+      ]
+    },
+    "l2_codigo_principal": {
+      "type": "string"
+    },
+    "l3_codigo_principal": {
+      "type": ["string", "null"]
+    },
+    "l3_nivel_riesgo": {
+      "type": "string",
+      "enum": ["Bajo", "Medio", "Alto", "Crítico", "No activado"]
+    },
+    "l3_capa_vacia": {
+      "type": "boolean"
+    },
+    "evaluacion_global": {
+      "type": "string",
+      "enum": ["Bajo", "Medio", "Deficiente", "Fallo Severo", "Bloqueante"]
+    },
+    "vector_stev": {
+      "type": "string",
+      "pattern": "^\\[L1:[A-Za-z0-9\\.\\+ ]*\\|L2:[A-Za-z0-9\\.\\+ ]*\\|L3:[A-Za-z0-9\\.\\+ ]*\\]$"
+    },
+    "dudas": {
+      "type": "string"
+    }
+  }
+}

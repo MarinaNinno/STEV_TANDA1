@@ -33,3 +33,4 @@ import pandas as pd
 
 df = pd.read_csv("04_corpus/etapa5/Etapa5_consolidado.csv")
 print(df.shape)
+```

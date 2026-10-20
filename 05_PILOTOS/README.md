@@ -1,6 +1,6 @@
 # Pilotos de confiabilidad
 
-Esta carpeta contiene los resultados de los 5 pilotos:
+Esta carpeta contiene los resultados de las 7 rondas de validación:
 
 - `v0.1/`: primer piloto (consistencia interna).
 - `v0.2/`: segundo piloto (ajuste de fronteras).

@@ -1,0 +1,1 @@
+Las versiones históricas del Codebook (v0.1 a v0.6) se documentan en el Decision Log (02_decision_log/).
