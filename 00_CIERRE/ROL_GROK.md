@@ -246,3 +246,19 @@ En la TANDA1-STEV, Grok ocupó **dos roles simultáneos** durante fases distinta
 ---
 
 ## 10. Estado del documento
+FUENTES: 2 archivos de historial (tanda1 + inicio análisis T1)
+ROLES: 9 funciones documentadas con cita textual
+FASES: Calibración (previa) + Coordinación (intra-modelo)
+CITAS: ~30 citas textuales con página
+ESTADO: Borrador para revisión
+DESTINO: 00_CIERRE/
+
+---
+
+## 11. Próximos pasos
+
+1. **Revisión de Marina:** confirmar que los roles documentados son correctos y completos.
+2. **Incorporación al repositorio:** colocar en `00_CIERRE/` o en la raíz, junto a `README.md` y `DECISIONES.md`.
+3. **Referencia cruzada:** enlazar este documento desde el `INDICE.md` de la tanda y desde el `CHANGELOG.md`.
+4. **Actualización con fases posteriores:** si en v3, v4 o v5 Grok cumple otros roles (evaluador externo, referencia, etc.), agregar al documento.
+5. **Registro en Decision Log:** si se considera una decisión metodológica relevante, registrar la creación de este documento como decisión.
