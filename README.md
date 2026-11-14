@@ -1,11 +1,15 @@
 # Protocolo STEV — TANDA1
 
-**Sistema Tricapa de Evaluación Epistémica para respuestas de modelos de lenguaje.**
+Sistema Tricapa de Evaluación Epistémica para respuestas de modelos de lenguaje.
 
-- **Versión del Codebook:** v1.0 (final)
+> **Estado: contenido informativo, no auditado.**
+> Este repositorio reúne material de trabajo del proyecto STEV. Ninguna parte ha pasado por un proceso de auditoría de fidelidad. Las cifras (incluidas las métricas de acuerdo entre evaluadores) son reportes del autor, sin verificación independiente. La auditoría se lleva por separado y no forma parte de este repositorio.
+> El contenido se publica sin citas literales de terceros y sin datos personales o sensibles.
+
+- **Codebook:** v1.0 de trabajo (sin auditar)
 - **Paquete:** TANDA1-STEV
-- **Fecha de cierre:** 2026-10-07
-- **Autoría:** Marina (diseño) + Claude (redacción)
+- **Última actualización:** [fecha de la última subida]
+- **Autoría:** Marina (diseño y dirección). Redacción asistida por modelos de lenguaje: Claude (documentos de diseño), DeepSeek (extracciones de capa 1) y Meta AI (fichas de capa 2). Las fichas tienen revisión humana pendiente.
 
 ---
 
@@ -21,21 +25,21 @@ Cada capa responde una pregunta distinta y no compite con las otras.
 
 ---
 
-## Estado del proyecto
+## Estado del proyecto (reportado, sin auditar)
 
-| Componente | Estado |
+| Componente | Estado reportado |
 |---|---|
-| Codebook | v1.0 (final) |
+| Codebook | v1.0 de trabajo |
 | Iteraciones | 6 (v0.1 a v0.6) |
 | Pilotos de confiabilidad | 5 (v0.3 a etapa 5) |
-| Ejercicios del corpus | 10 (A1–A10) |
+| Ejercicios del corpus del piloto | 10 (A1–A10) |
 | Evaluadores externos | 6 (Grok, GPT, Copilot, Gemini, Meta, DeepSeek) |
 | Decisiones registradas | 67 |
-| Corpus final | 60 registros |
+| Corpus del piloto (etapa 5) | 60 registros |
 
----
+> El corpus del piloto (60 registros) es distinto del corpus de génesis, que consta de 254 extracciones trazables registradas en un manifiesto aparte.
 
-## Métricas finales
+## Métricas del piloto (reportadas, sin auditar)
 
 | Capa | Acuerdo bruto | Alpha |
 |---|---|---|
@@ -48,37 +52,19 @@ Cada capa responde una pregunta distinta y no compite con las otras.
 
 ## Cómo navegar este repositorio
 
-Cada carpeta principal tiene su propio `README.md` con instrucciones específicas. Esta tabla te orienta según lo que necesites.
-
-| Si querés… | Andá a… |
-|---|---|
-| Entender el proyecto completo | `00_cierre/Proyecto_STEV_Cierre.md` |
-| Ver el instrumento final | `01_codebook/Codebook_STEV_v1.0.md` |
-| Ver las decisiones del proyecto | `02_decision_log/DecisionLog_STEV.md` |
-| Consultar el catálogo de códigos | `03_nosografia/Nosografia_STEV_v0.md` |
-| Ver los datos | `04_corpus/etapa5/Etapa5_consolidado.csv` |
-| Ver los resultados | `05_pilotos/etapa5/Etapa5_resultados.md` |
-| Aplicar el instrumento | `06_kits/Kit_Evaluacion_STEV_v1.0.md` |
-| Reproducir los análisis | `07_herramientas/calcular_alpha.py` |
-| Ver el análisis del corpus original | `08_analisis_transversal/Capa2_AnalisisTransversal.md` |
-| Usar la plantilla de recolección | `09_recoleccion_externa/Recoleccion_externa_template.csv` |
-| Ver el reporte de portfolio | `00_cierre/Reporte_Portfolio.md` |
+[mantener la tabla, pero verificar antes de publicar que cada ruta existe]
 
 ---
 
 ## Cómo citar
 
-> Marina. (2026). *Protocolo STEV: evaluación epistémica tricapa de respuestas de modelos de lenguaje*. Paquete TANDA1-STEV. Codebook v1.0.
+Marina. (2026). *Protocolo STEV: evaluación epistémica tricapa de respuestas de modelos de lenguaje* (versión de trabajo). Paquete TANDA1-STEV.
 
 ---
 
 ## Licencia
 
-Por definir. Recomendado:
-
-- Documentos: CC BY 4.0
-- Código: MIT o similar
-- Datasets: CC BY 4.0
+Por definir. Recomendado: documentos CC BY 4.0, código MIT, datasets CC BY 4.0.
 
 ---
 
